@@ -93,7 +93,7 @@ function paperWin() {
 }
 
 function startPaper() {
-  paperInterval = setInterval(paperWin, 100);
+  paperInterval = setInterval(paperWin, 150);
   setTimeout(() => {
     stopPaper();
   }, 20000);
